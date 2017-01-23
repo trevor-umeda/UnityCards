@@ -46,8 +46,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Card.cs" />
+     <Compile Include="Assets\Deck.cs" />
      <Compile Include="Assets\Draggable.cs" />
      <Compile Include="Assets\DropZone.cs" />
+     <Compile Include="Assets\Hand.cs" />
+     <None Include="Assets\Resource\cardData.txt" />
+     <None Include="Assets\CardData\cardData.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
